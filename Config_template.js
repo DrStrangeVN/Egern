@@ -1,6 +1,9 @@
+#🆅🆄 🅳🅸🅽🅷 🆃🆁🅸
+#01.01.2024
+#Config by AE Viefast
 policy_groups:
 - select:
-    name: 🆅🆄 🅳🅸🅽🅷 🆃🆁🅸
+    name: 🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁
     policies:
     - ⓅⒾⓃⒼ 🅐🅛🅛
     - ⓅⒾⓃⒼ 🅥🅝🅐🅜
@@ -64,7 +67,7 @@ rules:
     match: 224.0.0.0/24
     policy: DIRECT
 - default:
-    policy: 🆅🆄 🅳🅸🅽🅷 🆃🆁🅸
+    policy: 🅵🆄🅻🅻 🆂🅴🆁🆅🅴🆁
 url_rewrites:
 - match: ^https:\/\/[\w-]+\.googlevideo\.com\/initplayback\?.+&oad
   location: reject-200
