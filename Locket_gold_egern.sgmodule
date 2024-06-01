@@ -1,0 +1,26 @@
+#!name=Locket Gold
+#!desc=Premium
+
+mitm:
+  hostnames:
+  - api.revenuecat.com
+
+
+header_rewrites:
+- delete:
+    match: ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$)
+    name: X-RevenueCat-ETag
+    type: request
+- delete:
+    match: ^https?://api.revenuecat.com/.+/(receipts$|subscribers/?(.*?)*$)
+    name: x-revenuecat-etag
+    type: request
+
+
+scriptings:
+- http_response:
+    name: Locket_Gold_AQVPN
+    match: ^https:\/\/api\.revenuecat\.com\/.+\/(receipts$|subscribers\/[^/]+$)
+    script_url: https://download.aqvpn.eu.org/script/apptesters/AutoRC.js
+    body_required: true
+    update_interval: 5
