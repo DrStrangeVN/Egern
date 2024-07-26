@@ -61,7 +61,7 @@ policy_groups:
     flatten: true
 
 
-    filter: ''
+    filter: 🇻🇳
 
 
     icon: https://cdn-icons-png.freepik.com/512/6966/6966918.png
@@ -85,7 +85,7 @@ policy_groups:
     flatten: true
 
 
-    filter: ''
+    filter: 🇻🇳
 
 
     icon: https://cdn-icons-png.freepik.com/512/9154/9154287.png
@@ -109,7 +109,7 @@ policy_groups:
     flatten: true
 
 
-    filter: 𝗦𝗜𝗡𝗚𝗔𝗣𝗢𝗥𝗘
+    filter: 🇸🇬
 
 
     icon: https://cdn-icons-png.freepik.com/512/10948/10948393.png
@@ -130,7 +130,7 @@ policy_groups:
     - 🅢🅞🅤🅡🅔 🅤🅡🅛
 
 
-    filter: 𝗛𝗢𝗡𝗚 𝗞𝗢𝗡𝗚
+    filter: 🇨🇳
 
 
     icon: https://cdn-icons-png.freepik.com/512/10948/10948387.png
